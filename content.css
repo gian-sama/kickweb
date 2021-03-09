@@ -1,0 +1,107 @@
+@media screen{
+
+    .txt1 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 500%;
+    
+    }
+    
+    .txt2li {
+        font-family: good-times, sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        font-size: 500%;
+    
+    }
+    .txt2me {
+        font-family: good-times, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 500%;
+    
+    }
+    .txt2ba {
+        font-family: good-times-bad-times, sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 600%;
+    
+    }
+    
+    .rechts {
+        float:right;
+    }
+
+
+
+    /* Übung LinkedIN */
+    .zitat {
+        background-color: #eee;
+        text-align: center;
+        padding: 1em;
+        margin: 0 0 1em 0;
+        border-top: 20px solid #2873bd3b;
+        text-decoration: line-through;
+    }
+    
+    .versuchdiv {
+        /*background: orange; */
+        width: 300px; 
+        height: 100px; 
+        padding: 50px; 
+        margin: 0 0 20px 0;
+        border: solid rgb(255, 190, 68);
+        border-radius: 50px 4px 50px 4px;
+        box-shadow: 4px 4px 15px rgb(233, 233, 233);
+        background-image: linear-gradient(to right, rgb(159, 159, 255), rgb(158, 158, 158));
+        float:center;
+    }
+/*Steckbrief*/
+    .titeldiv{
+        padding: 500px 0 0 100px;  
+    }
+
+    .lauftext{
+        font-size:150%;
+        padding: 0 600px 20px 120px; 
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .italic{
+        font-style: italic;
+        font-size: 120%;
+    }
+
+/* Übung 09.03.2021*/
+    .u09032021{ 
+        width: 50%; 
+        height: 100%; 
+        padding: 20px; 
+        margin: 20px;
+        border: solid black;
+        border-radius: 4px 4px 4px 4px;
+        box-shadow: 4px 4px 15px rgb(233, 233, 233);
+        background-image: linear-gradient(to right, black, red);
+        font-size:400%;
+        text-align: center;
+        font-family: good-times, sans-serif;
+        color: white;
+        margin:auto
+
+    }
+
+    .u09032021-top{
+        border: solid black;
+        display:inline-block;
+        padding: 20px;
+        margin: 20px;
+        justify-content:center
+    }
+    /*
+    body{
+        width: 80%;
+        margin: auto; 
+    }
+    */
+
+} /*End @media*/
