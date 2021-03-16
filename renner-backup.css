@@ -77,28 +77,17 @@
         
       }
 
-    .title1{
+    .title{
         transform: rotate(-45deg);
         font-size:125px;
         text-align:center;
-        margin-left:36px;
-        margin-top:305px;
+        margin-left:-1470px;
+        margin-top:425px;
         line-height: 108px;
         letter-spacing: -2px;
         text-transform: uppercase;
-        position: absolute;
     }
-    .title2{
-        transform: rotate(-45deg);
-        font-size:125px;
-        text-align:center;
-        margin-left:30px;
-        margin-top:384px;
-        line-height: 108px;
-        letter-spacing: -2px;
-        text-transform: uppercase;
-        position: absolute;
-    }
+
 
     .tred{
         transform: rotate(-45deg);
@@ -106,10 +95,9 @@
         font-weight: 600;
         letter-spacing: .5px;
        /* background-color:rgba(255, 0, 0, 0.178);*/
-        margin-top: 660px;
-        margin-left:125px;
+        margin-top: -738px;
+        margin-left:-150px;
         text-transform: uppercase;
-        position: absolute;
     }
 
     .tgreen{
@@ -119,9 +107,8 @@
         text-transform: uppercase;
 
 
-        margin-left:154px;
-        margin-top:710px;
-        position: absolute;
+        margin-left:-125px;
+        margin-top:-25px;
 
 /*        background-color: rgba(0, 128, 0, 0.514);*/
     }
@@ -131,11 +118,10 @@
         font-size: 20px;
         letter-spacing: -1px;
         line-height: 20px;
-        color: white;
+        color: rgb(187, 96, 96);
 
-        margin-left:325px;
-        margin-top:515px;
-        position:absolute;
+        margin-left:70px;
+        margin-top:-178px;
 
 /*        background-color: pink;*/
     }
@@ -148,7 +134,7 @@
 
 
         margin-left:380px;
-        margin-top:530px;
+        margin-top:545px;
         position: absolute;
 
 /*        background-color: cyan;*/
@@ -158,9 +144,8 @@
         transform: rotate(-45deg);
         font-size: 60px;
 
-        margin-left:90px;
-        margin-top:10px;  
-        position: absolute;
+        margin-left:-210px;
+        margin-top:-800px;  
     }
 
 /* OBJECTS */
@@ -172,7 +157,8 @@
         background-color: black;
 
         margin-left:195px;
-        margin-top:430px; 
+        margin-top:15px; 
+        color:white;
 
     }
 
@@ -184,7 +170,7 @@
         background-color: black;
 
         margin-left:110px;
-        margin-top:775px; 
+        margin-top:358px; 
     }
 
     .oyellowhori{
@@ -195,7 +181,7 @@
         background-color: black;
 
         margin-left:127px;
-        margin-top:800px; 
+        margin-top:385px; 
     }
 
     .ored{
@@ -206,117 +192,9 @@
         background-color: black;
 
         margin-left:-85px;
-        margin-top:545px; 
+        margin-top:125px; 
     }
 
-    .ocyan{
-        position: absolute;
-
-        height: 18px;
-        width: 18px;
-        background-color: transparent;
-
-        border-radius:50%;
-        border-style: solid;
-        border-width: 10px;
-
-        margin-top:130px;
-        margin-left:419px;
-    }
-
-    .opurple{
-        transform:rotate(-45deg);
-        position:absolute;
-        height:400px;
-        width:10px;
-        background-color: black;
-
-        margin-left:490px;
-        margin-top:630px; 
-        
-    }
-
-
-    .olime{
-        position: absolute;
-
-        height: 42px;
-        width: 42px;
-        background-color: transparent;
-
-        border-radius:50%;
-        border-style: solid;
-        border-width: 10px;
-
-        margin-top:20px;
-        margin-left:20px;
-    }
-
-    .oseaf{
-        transform:rotate(-45deg);
-        position:absolute;
-        height:5px;
-        width:60px;
-        background-color: black;
-
-        margin-left:105px;
-        margin-top:137px; 
-    }
-
-    .ooxb1{
-        transform:rotate(-45deg);
-        position:absolute;
-        height:5px;
-        width:60px;
-        background-color: black;
-
-        margin-left:305px;
-        margin-top:245px; 
-    }
-
-    .ooxb2{
-        transform:rotate(-45deg);
-        position:absolute;
-        height:5px;
-        width:145px;
-        background-color: black;
-
-        margin-left:355px;
-        margin-top:262px; 
-    }
-
-    .ooxb3{
-        transform:rotate(-45deg);
-        position:absolute;
-        height:5px;
-        width:145px;
-        background-color: black;
-
-        margin-left:435px;
-        margin-top:225px; 
-    }
-
-    .ooxb4{
-        transform:rotate(-45deg);
-        position:absolute;
-        height:5px;
-        width:145px;
-        background-color: black;
-
-        margin-left:400px;
-        margin-top:310px; 
-    }
-
-    .ooxb5{
-        transform:rotate(-45deg);
-        position:absolute;
-        height:5px;
-        width:145px;
-        background-color: black;
-
-        margin-left:470px;
-        margin-top:290px; 
-    }
 
     .borderR{
         position:absolute;
@@ -325,16 +203,16 @@
         background-color: white;
 
         margin-left:590px;
-        margin-top:200px; 
+        margin-top:-200px; 
     }
     .borderB{
         position:absolute;
         height:100px;
-        width:600px;
+        width:550px;
         background-color: white;
 
         margin-left:80px;
-        margin-top:920px; 
+        margin-top:500px; 
     }
 
 
