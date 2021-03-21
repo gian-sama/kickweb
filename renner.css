@@ -63,46 +63,33 @@
         font-weight: 700;
         font-style: italic;
         */
-    
-    /* Rotaté */
-
 
     body {
-        /*background-image: url("img/prennercc.png"); 
-        background-repeat: no-repeat;*/
+
         background-color: grey;
     }
 
-/* Text */
-    p {
-
-        font-family:'Futura PT Medium';
-
-        
-      }
-
       .widthwrapperofdoom{
-          /*ich habe diese Idee eventuell Max geklaut*/
+          /*Ich liess mich bei dieser Lösung von Max inspirieren*/
           position:relative;
           overflow:hidden;
           height:100vh;
           width:64.7vh; 
-
+          
+        
           transform:translate(10vh,0vh);
           background-color: white;
 
-        /* background-image: url("img/prennercc.png"); 
-        background-repeat: no-repeat;
-        background-size: 100%;*/
       }
 
     .title1{
         transform: rotate(-45deg);
         font-size:14vh;
+        font-weight:500;
         text-align:center;
-        left:5vh;
-        top:30vh;
-        letter-spacing: -.7vh;
+        left:5.3vh;
+        top:30.4vh;
+        letter-spacing: -.9vh;
         text-transform: uppercase;
         position: absolute;
 
@@ -113,6 +100,7 @@
     .title2{
         transform: rotate(-45deg);
         font-size:14vh;
+        font-weight:500;
         text-align:center;
         left:4vh;
         top:38.5vh;
@@ -192,9 +180,6 @@
 
 
 /* OBJECTS */
-
-
-
     .ogreen{
         transform:rotate(-45deg);
         position:absolute;
