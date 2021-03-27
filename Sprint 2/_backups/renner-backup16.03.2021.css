@@ -1,0 +1,395 @@
+@media screen{
+    @import url("https://use.typekit.net/ywf2fly.css");
+        /*
+        Futura PT Medium
+        font-family: futura-pt, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+
+
+        Futura PT Heavy
+        font-family: futura-pt, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+
+
+        Futura PT Book
+        font-family: futura-pt, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+
+        Futura PT Demi
+        font-family: futura-pt, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+
+
+        Futura PT Bold
+        font-family: futura-pt-bold, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+
+
+        Futura PT Bold Oblique
+        font-family: futura-pt-bold, sans-serif;
+        font-weight: 700;
+        font-style: italic;
+
+
+        Futura PT Cond Book
+        font-family: futura-pt-condensed, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+
+        Futura PT Cond Book Oblique
+        font-family: futura-pt-condensed, sans-serif;
+        font-weight: 400;
+        font-style: italic;
+
+
+        Futura PT Cond Bold
+        font-family: futura-pt-condensed, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+
+
+        Futura PT Cond Bold Oblique
+        font-family: futura-pt-condensed, sans-serif;
+        font-weight: 700;
+        font-style: italic;
+        */
+    
+    /* Rotaté */
+
+/*
+    body {
+        background-image: url("img/prennercc.png"); 
+        background-repeat: no-repeat;
+    }*/
+
+/* Text */
+    p {
+
+        font-family:'Futura PT Medium';
+
+        
+      }
+
+    .title1{
+        transform: rotate(-45deg);
+        font-size:125px;
+        text-align:center;
+        margin-left:36px;
+        margin-top:305px;
+        line-height: 108px;
+        letter-spacing: -2px;
+        text-transform: uppercase;
+        position: absolute;
+    }
+
+
+    .title2{
+        transform: rotate(-45deg);
+        font-size:125px;
+        text-align:center;
+        margin-left:30px;
+        margin-top:384px;
+        line-height: 108px;
+        letter-spacing: -2px;
+        text-transform: uppercase;
+        position: absolute;
+    }
+
+    .tred{
+        transform: rotate(-45deg);
+        font-size:28px;
+        font-weight: 600;
+        letter-spacing: .5px;
+       /* background-color:rgba(255, 0, 0, 0.178);*/
+        margin-top: 660px;
+        margin-left:125px;
+        text-transform: uppercase;
+        position: absolute;
+
+    }
+/*temp*/
+    .tred:hover{
+        transform: rotate(-45deg);
+        font-size:28px;
+        color: red; 
+        font-weight: 600;
+        letter-spacing: .5px;
+       /* background-color:rgba(255, 0, 0, 0.178);*/
+        margin-top: 660px;
+        margin-left:125px;
+        text-transform: uppercase;
+        position: absolute;
+        transition-property: all;
+        transition-duration: 1s;
+    }
+
+
+    .tgreen{
+        transform: rotate(-45deg);
+        font-size: 20px;
+        letter-spacing: 0px;
+        text-transform: uppercase;
+
+
+        margin-left:154px;
+        margin-top:710px;
+        position: absolute;
+
+/*        background-color: rgba(0, 128, 0, 0.514);*/
+    }
+
+    .tpink{
+        transform: rotate(-45deg);
+        font-size: 20px;
+        letter-spacing: -1px;
+        line-height: 20px;
+        color: white;
+
+        margin-left:325px;
+        margin-top:515px;
+        position:absolute;
+
+        transition-property: all;
+        transition-duration: .2s;
+        transition-timing-function: ease-in-out;
+        transition-delay: .1s;
+
+/*        background-color: pink;*/
+    }
+
+    .tpink:hover{
+        color: rgb(209, 209, 209);
+
+        transform: rotate(-40deg) translate(30px,-8px);
+        font-size:22px;
+
+        transition-property: all;
+        transition-duration: .7s;
+        transition-timing-function: ease-in-out;
+
+
+/*        background-color: pink;*/
+    }
+
+
+    .tcyan{
+        transform: rotate(-45deg);
+        font-size: 12px;
+        letter-spacing: -.1px;
+        line-height:18px;
+
+
+        margin-left:380px;
+        margin-top:530px;
+        position: absolute;
+
+/*        background-color: cyan;*/
+    }
+
+    .tblue{
+        transform: rotate(-45deg);
+        font-size: 60px;
+
+        margin-left:90px;
+        margin-top:10px;  
+        position: absolute;
+    }
+
+/* KEYFRAMES OBJECTS*/
+        @keyframes slidein{
+            from{
+                transform: rotate(-45deg) translate(200px,0px) scale(0.1,1);
+            }
+            to{
+                transform:rotate(-45deg) translate(0px,0px) scale(1,1);
+            }
+        }
+
+/* OBJECTS */
+    .ogreen{
+        transform:rotate(-45deg);
+        position:absolute;
+        height:50px;
+        width:550px;
+        background-color: black;
+
+        margin-left:195px;
+        margin-top:430px; 
+
+
+        animation-name: slidein;
+        animation-duration: 2s;
+
+    }
+
+    .oyellowvert{
+        transform:rotate(-45deg);
+        position:absolute;
+        height:30px;
+        width:240px;
+        background-color: black;
+
+        margin-left:110px;
+        margin-top:775px; 
+    }
+
+    .oyellowhori{
+        transform:rotate(-45deg);
+        position:absolute;
+        height:160px;
+        width:30px;
+        background-color: black;
+
+        margin-left:127px;
+        margin-top:800px; 
+    }
+
+    .ored{
+        transform:rotate(-45deg);
+        position:absolute;
+        height:150px;
+        width:150px;
+        background-color: black;
+
+        margin-left:-85px;
+        margin-top:545px; 
+    }
+
+    .ocyan{
+        position: absolute;
+
+        height: 18px;
+        width: 18px;
+        background-color: transparent;
+
+        border-radius:50%;
+        border-style: solid;
+        border-width: 10px;
+
+        margin-top:130px;
+        margin-left:419px;
+    }
+
+    .opurple{
+        transform:rotate(-45deg);
+        position:absolute;
+        height:400px;
+        width:10px;
+        background-color: black;
+
+        margin-left:490px;
+        margin-top:630px; 
+        
+    }
+
+
+    .olime{
+        position: absolute;
+
+        height: 42px;
+        width: 42px;
+        background-color: transparent;
+
+        border-radius:50%;
+        border-style: solid;
+        border-width: 10px;
+
+        margin-top:20px;
+        margin-left:20px;
+    }
+
+    .oseaf{
+        transform:rotate(-45deg);
+        position:absolute;
+        height:5px;
+        width:60px;
+        background-color: black;
+
+        margin-left:105px;
+        margin-top:137px; 
+    }
+
+    .ooxb1{
+        transform:rotate(-45deg);
+        position:absolute;
+        height:5px;
+        width:60px;
+        background-color: black;
+
+        margin-left:305px;
+        margin-top:245px; 
+    }
+
+    .ooxb2{
+        transform:rotate(-45deg);
+        position:absolute;
+        height:5px;
+        width:145px;
+        background-color: black;
+
+        margin-left:355px;
+        margin-top:262px; 
+    }
+
+    .ooxb3{
+        transform:rotate(-45deg);
+        position:absolute;
+        height:5px;
+        width:145px;
+        background-color: black;
+
+        margin-left:435px;
+        margin-top:225px; 
+    }
+
+    .ooxb4{
+        transform:rotate(-45deg);
+        position:absolute;
+        height:5px;
+        width:145px;
+        background-color: black;
+
+        margin-left:400px;
+        margin-top:310px; 
+    }
+
+    .ooxb5{
+        transform:rotate(-45deg);
+        position:absolute;
+        height:5px;
+        width:145px;
+        background-color: black;
+
+        margin-left:470px;
+        margin-top:290px; 
+    }
+
+    .borderR{
+        position:absolute;
+        height:550px;
+        width:550px;
+        background-color: white;
+
+        margin-left:590px;
+        margin-top:200px; 
+    }
+    .borderB{
+        position:absolute;
+        height:100px;
+        width:600px;
+        background-color: white;
+
+        margin-left:80px;
+        margin-top:920px; 
+    }
+
+
+
+} /*End @media*/
