@@ -83,6 +83,11 @@
 
       }
 
+      .r-align{
+          position:absolute;
+      }
+
+
       .flex-oxb{
         display: flex;
         justify-content: left;
@@ -90,7 +95,11 @@
       }
 
       .flex-ogreen{
+        display: flex;
+        width:100vw;
         justify-content: right;
+        border:1px solid blue;
+
 
       }
 
@@ -436,7 +445,7 @@
 /* KEYFRAMES OBJECTS*/
     /* Wichtige Sachen wie Texte zuerst */
 
-    /*
+    
 @keyframes ogreenani{
     0% {transform: rotate(-45deg) translate(20vh,0vh) scale(0.2,.9);}
 
@@ -445,16 +454,16 @@
 }
 
 @keyframes title1ani{
-    0%{transform: rotate(-45deg) translate(-50vh,0vh) scale(1,1);}
-    50%{transform: rotate(-45deg) translate(-50vh,0vh) scale(.6,.7);}
+    0%{transform: rotate(-45deg) translate(-50vh,0vh) scale(1,1); opacity: 0;}
+    50%{transform: rotate(-45deg) translate(-50vh,0vh) scale(.6,.7); opacity: 0;}
 
-    100% {transform:rotate(-45deg) translate(0vh,0vh) scale(1,1);}
+    100% {transform:rotate(-45deg) translate(0vh,0vh) scale(1,1);opacity: 1;}
 }
 
 @keyframes title2ani{
-    0%{transform: rotate(-45deg) translate(-40vh,0vh) scale(.8,.9);}
+    0%{transform: rotate(-45deg) translate(-40vh,0vh) scale(.8,.9);opacity: 0;}
 
-    100% {transform:rotate(-45deg) translate(0vh,0vh) scale(1,1);}
+    100% {transform:rotate(-45deg) translate(0vh,0vh) scale(1,1);opacity: 1;}
 }
 
 @keyframes oredani{
@@ -508,9 +517,9 @@
 }
 
 @keyframes oseafani{
-    0%{transform: rotate(-45deg) translate(-40vh,0vh) scale(.5,1);}
-    50%{transform: rotate(-45deg) translate(-40vh,0vh) scale(.5,1);}
-    100% {transform:rotate(-45deg) translate(0vh,0vh) scale(1,1);}
+    0%{transform: rotate(-45deg) translate(-40vh,0vh) scale(.5,1);opacity: 0;}
+    50%{transform: rotate(-45deg) translate(-40vh,0vh) scale(.5,1);opacity: 0;}
+    100% {transform:rotate(-45deg) translate(0vh,0vh) scale(1,1);opacity: 1;}
 }
 
 @keyframes olimeani{
@@ -536,15 +545,12 @@
 }
 
 @keyframes oxbani{
-    0%{transform: rotate(-45deg) translate(45vh,0vh) scale(.5,1);}
-    50%{transform: rotate(-45deg) translate(45vh,0vh) scale(.5,1);}
-    100% {transform:rotate(-45deg) translate(0vh,0vh) scale(1,1);}
+    0%{transform: rotate(-45deg) translate(45vh,0vh) scale(.5,1);opacity: 0;}
+    50%{transform: rotate(-45deg) translate(45vh,0vh) scale(.5,1);opacity: 0;}
+    100% {transform:rotate(-45deg) translate(0vh,0vh) scale(1,1);opacity: 1;}
 }
-*/
+
 @media screen and (min-width:1200px){
-    body{
-        background-color: red;
-    }
     .widthwrapperofdoom{
         position:relative;
         overflow:hidden;
@@ -555,8 +561,72 @@
       
         transform:translate(0vw,0vh);
         background-color: white;
+
+        
     }
+    .r-align{
+        position:absolute;
+        min-width: 960px;
+        right: -20vh;
+        left: 60%;
+    }
+
+    .balken{
+        position:absolute;
+        min-width: 960px;
+        right: -40vh;
+    }
+
+    .r-2{
+        position:absolute;
+        min-width: 960px;
+        left: 40%;
+        top: -50vh;
+        transform: scale(1.5);
+
+    }
+
+    .r-3{
+        position:absolute;
+        min-width: 960px;
+        top: -10vh;
+        transform: scale(1.1);
+        left: 10%;
+    }
+
+
+.title{
+    position:absolute;
+    top: -60vh;
+    transform: scale(1.7,1.7);
+    left:25%;
+}
+
+.ocyan{
+    position:absolute;
+    left:40%;
+    top:5vh;
 
 }
 
+.obluegroup{
+    position:absolute;
+    left: 15%;
+    top: -5vh;
+}
+
+.atop{
+    position:absolute;
+
+    left: 10%;
+}
+
+.olime{
+    position:absolute;
+    left:5%;
+    top:5vh;
+
+}
+
+}
 } /*End @media*/
