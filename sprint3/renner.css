@@ -3,69 +3,8 @@
         *{
             font-family:futura-pt, sans-serif;
         }
-        /*
-        Futura PT Medium
-        font-family: futura-pt, sans-serif;
-        font-weight: 500;
-        font-style: normal;
-
-
-        Futura PT Heavy
-        font-family: futura-pt, sans-serif;
-        font-weight: 700;
-        font-style: normal;
-
-
-        Futura PT Book
-        font-family: futura-pt, sans-serif;
-        font-weight: 400;
-        font-style: normal;
-
-
-        Futura PT Demi
-        font-family: futura-pt, sans-serif;
-        font-weight: 600;
-        font-style: normal;
-
-
-        Futura PT Bold
-        font-family: futura-pt-bold, sans-serif;
-        font-weight: 700;
-        font-style: normal;
-
-
-        Futura PT Bold Oblique
-        font-family: futura-pt-bold, sans-serif;
-        font-weight: 700;
-        font-style: italic;
-
-
-        Futura PT Cond Book
-        font-family: futura-pt-condensed, sans-serif;
-        font-weight: 400;
-        font-style: normal;
-
-
-        Futura PT Cond Book Oblique
-        font-family: futura-pt-condensed, sans-serif;
-        font-weight: 400;
-        font-style: italic;
-
-
-        Futura PT Cond Bold
-        font-family: futura-pt-condensed, sans-serif;
-        font-weight: 700;
-        font-style: normal;
-
-
-        Futura PT Cond Bold Oblique
-        font-family: futura-pt-condensed, sans-serif;
-        font-weight: 700;
-        font-style: italic;
-        */
 
     body {
-
         background-color: white;
     }
 
@@ -75,23 +14,18 @@
           overflow:hidden;
           height:100vh;
           width:64.7vh; 
-
-          
         
           transform:translate(0vh,0vh);
           background-color: white;
-
       }
 
       .r-align{
           position:absolute;
       }
 
-
       .flex-oxb{
         display: flex;
         justify-content: left;
-
       }
 
       .flex-ogreen{
@@ -99,8 +33,6 @@
         width:100vw;
         justify-content: right;
         border:1px solid blue;
-
-
       }
 
     .title1{
@@ -116,9 +48,7 @@
 
         animation-name: title1ani;
         animation-duration: 1.5s;
-
     }
-
 
     .title2{
         transform: rotate(-45deg);
@@ -133,7 +63,6 @@
 
         animation-name: title2ani;
         animation-duration: 1.5s;
-
     }
 
     .tred{
@@ -149,10 +78,7 @@
 
         animation-name: tredani;
         animation-duration: 1.75s;
-
     }
-
-
 
     .tgreen{
         transform: rotate(-45deg);
@@ -167,7 +93,6 @@
 
         animation-name: tgreenani;
         animation-duration: 1.75s;
-
     }
 
     .tpink{
@@ -180,11 +105,7 @@
         left:35.8vh;
         top:56.5vh;
         position:absolute;
-
     }
-
-
-
 
     .tcyan{
         transform: rotate(-45deg);
@@ -199,7 +120,6 @@
 
         animation-name: tcyanani;
         animation-duration: 1.75s;
-
     }
 
     .tblue{
@@ -220,8 +140,8 @@
     .ogreen{
         transform:rotate(-45deg);
         position:absolute;
-        height:5vh; /*50px*/
-        width:60vh; /*550px*/
+        height:5vh;
+        width:60vh; 
         background-color: black;
 
         margin-left:22vh;
@@ -229,8 +149,6 @@
         
         animation-name: ogreenani;
         animation-duration: 1.5s;
-
-
     }
 
     .oyellowvert{
@@ -305,9 +223,7 @@
 
         animation-name: opurpleani;
         animation-duration: 3s;  
-        
     }
-
 
     .olime{
         position: absolute;
@@ -422,7 +338,6 @@
 
         left: 4.2vh; 
         top: 28.6vh;
-
     }
 
     .obluecover{
@@ -435,40 +350,34 @@
 
         left: 26vh; 
         top: 19vh;
-
        
         animation-name: oblueani;
         animation-duration: 2s;
-
     }
+
+
 
 /* KEYFRAMES OBJECTS*/
     /* Wichtige Sachen wie Texte zuerst */
 
-    
 @keyframes ogreenani{
     0% {transform: rotate(-45deg) translate(20vh,0vh) scale(0.2,.9);}
-
-
     100% {transform:rotate(-45deg) translate(0vh,0vh) scale(1,1);}
 }
 
 @keyframes title1ani{
     0%{transform: rotate(-45deg) translate(-50vh,0vh) scale(1,1); opacity: 0;}
     50%{transform: rotate(-45deg) translate(-50vh,0vh) scale(.6,.7); opacity: 0;}
-
     100% {transform:rotate(-45deg) translate(0vh,0vh) scale(1,1);opacity: 1;}
 }
 
 @keyframes title2ani{
     0%{transform: rotate(-45deg) translate(-40vh,0vh) scale(.8,.9);opacity: 0;}
-
     100% {transform:rotate(-45deg) translate(0vh,0vh) scale(1,1);opacity: 1;}
 }
 
 @keyframes oredani{
     0%{transform: rotate(-45deg) translate(-40vh,0vh) scale(.8,1);}
-
     100% {transform:rotate(-45deg) translate(0vh,0vh) scale(1,1);}
 }
 
@@ -486,14 +395,12 @@
 }
 
 @keyframes tcyanani{
- 
     0%{transform: rotate(-45deg) translate(0vh,-5vh) scale(.8,.1);opacity: 0}
     80%{transform: rotate(-45deg) translate(0vh,-5vh) scale(.8,.1);opacity: 0}
     100% {transform:rotate(-45deg) translate(0vh,0vh) scale(1,1);}
 }
 
 @keyframes tgreenani{
- 
     0%{transform: rotate(-45deg) translate(0vh,-5vh) scale(.5,.1);opacity: 0}
     80%{transform: rotate(-45deg) translate(0vh,-5vh) scale(.5,.1);opacity: 0}
     100% {transform:rotate(-45deg) translate(0vh,0vh) scale(1,1);}
@@ -557,13 +464,10 @@
         height:100vh;
         width:100vw; 
 
-        
-      
         transform:translate(0vw,0vh);
         background-color: white;
-
-        
     }
+
     .r-align{
         position:absolute;
         min-width: 960px;
@@ -583,7 +487,6 @@
         left: 40%;
         top: -50vh;
         transform: scale(1.5);
-
     }
 
     .r-3{
@@ -606,7 +509,6 @@
     position:absolute;
     left:40%;
     top:5vh;
-
 }
 
 .obluegroup{
@@ -617,7 +519,6 @@
 
 .atop{
     position:absolute;
-
     left: 10%;
 }
 
@@ -625,8 +526,68 @@
     position:absolute;
     left:5%;
     top:5vh;
-
 }
 
-}
+} /*End media screen*/
 } /*End @media*/
+
+        /*
+        Futura PT Medium
+        font-family: futura-pt, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+
+
+        Futura PT Heavy
+        font-family: futura-pt, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+
+
+        Futura PT Book
+        font-family: futura-pt, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+
+        Futura PT Demi
+        font-family: futura-pt, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+
+
+        Futura PT Bold
+        font-family: futura-pt-bold, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+
+
+        Futura PT Bold Oblique
+        font-family: futura-pt-bold, sans-serif;
+        font-weight: 700;
+        font-style: italic;
+
+
+        Futura PT Cond Book
+        font-family: futura-pt-condensed, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+
+        Futura PT Cond Book Oblique
+        font-family: futura-pt-condensed, sans-serif;
+        font-weight: 400;
+        font-style: italic;
+
+
+        Futura PT Cond Bold
+        font-family: futura-pt-condensed, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+
+
+        Futura PT Cond Bold Oblique
+        font-family: futura-pt-condensed, sans-serif;
+        font-weight: 700;
+        font-style: italic;
+        */

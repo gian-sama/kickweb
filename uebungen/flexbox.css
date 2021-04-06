@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&display=swap');
+@import url("https://use.typekit.net/hls8zqv.css");
+
+@import url(basis.css);
+@import url(layout.css);
+@import url(navi-inline.css);
+@import url(content.css);
+
+@media screen{
+    *{
+        font-family:Roboto, sans-serif;
+    }
+/*
+    .parent{
+        display:flex;
+        justify-content:center;
+        align-items: center;
+        height:100vh;
+        width:100vh;
+        
+    }
+
+    .box {
+        background-color: black;
+        height: 25vh;
+        width:25vh;
+    }
+*/
+
+.parent2{
+    display: flex;
+    height: 100vh;
+    width: 100vh;
+    font-size: 15vh;;
+    
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.buchstaben{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+}
+
+
+}
+@media screen and (max-width:900px){
+  /*  .buchstaben{
+        background-color:red;
+        }*/
+
+    .buchstaben div:nth-of-type(3){
+        order:-2;
+    }
+
+    .buchstaben div:nth-of-type(2){
+        order:-1;
+    }
+
+}
