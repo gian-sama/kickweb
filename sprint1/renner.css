@@ -3,66 +3,7 @@
         *{
             font-family:futura-pt, sans-serif;
         }
-        /*
-        Futura PT Medium
-        font-family: futura-pt, sans-serif;
-        font-weight: 500;
-        font-style: normal;
-
-
-        Futura PT Heavy
-        font-family: futura-pt, sans-serif;
-        font-weight: 700;
-        font-style: normal;
-
-
-        Futura PT Book
-        font-family: futura-pt, sans-serif;
-        font-weight: 400;
-        font-style: normal;
-
-
-        Futura PT Demi
-        font-family: futura-pt, sans-serif;
-        font-weight: 600;
-        font-style: normal;
-
-
-        Futura PT Bold
-        font-family: futura-pt-bold, sans-serif;
-        font-weight: 700;
-        font-style: normal;
-
-
-        Futura PT Bold Oblique
-        font-family: futura-pt-bold, sans-serif;
-        font-weight: 700;
-        font-style: italic;
-
-
-        Futura PT Cond Book
-        font-family: futura-pt-condensed, sans-serif;
-        font-weight: 400;
-        font-style: normal;
-
-
-        Futura PT Cond Book Oblique
-        font-family: futura-pt-condensed, sans-serif;
-        font-weight: 400;
-        font-style: italic;
-
-
-        Futura PT Cond Bold
-        font-family: futura-pt-condensed, sans-serif;
-        font-weight: 700;
-        font-style: normal;
-
-
-        Futura PT Cond Bold Oblique
-        font-family: futura-pt-condensed, sans-serif;
-        font-weight: 700;
-        font-style: italic;
-        */
+   
 
     body {
 
@@ -79,7 +20,6 @@
         
           transform:translate(10vh,0vh);
           background-color: white;
-
       }
 
     .title1{
@@ -92,8 +32,6 @@
         letter-spacing: -.9vh;
         text-transform: uppercase;
         position: absolute;
-
-        
     }
 
 
@@ -119,7 +57,6 @@
         left:14.5vh;
         text-transform: uppercase;
         position: absolute;
-
     }
 
 
@@ -134,7 +71,6 @@
         left:17.5vh;
         text-transform: uppercase;
         position: absolute;
-
     }
 
     .tpink{
@@ -147,12 +83,7 @@
         left:35.8vh;
         top:56.5vh;
         position:absolute;
-
-
     }
-
-
-
 
     .tcyan{
         transform: rotate(-45deg);
@@ -160,12 +91,9 @@
         letter-spacing: 0vh;
         line-height: 2vh;
 
-
         left:42vh;
         top:58.5vh;
         position:absolute;
-
-
     }
 
     .tblue{
@@ -177,8 +105,6 @@
         position: absolute;
     }
 
-
-
 /* OBJECTS */
     .ogreen{
         transform:rotate(-45deg);
@@ -189,7 +115,6 @@
 
         margin-left:22vh;
         margin-top:47.5vh; 
-
     }
 
     .oyellowvert{
@@ -249,7 +174,6 @@
 
         left:52.5vh;
         top:69vh; /* nice */ 
-        
     }
 
 
@@ -348,8 +272,65 @@
     }
 
 
-}
-
-
-
 } /*End @media*/
+
+     /*
+        Futura PT Medium
+        font-family: futura-pt, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+
+
+        Futura PT Heavy
+        font-family: futura-pt, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+
+
+        Futura PT Book
+        font-family: futura-pt, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+
+        Futura PT Demi
+        font-family: futura-pt, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+
+
+        Futura PT Bold
+        font-family: futura-pt-bold, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+
+
+        Futura PT Bold Oblique
+        font-family: futura-pt-bold, sans-serif;
+        font-weight: 700;
+        font-style: italic;
+
+
+        Futura PT Cond Book
+        font-family: futura-pt-condensed, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+
+        Futura PT Cond Book Oblique
+        font-family: futura-pt-condensed, sans-serif;
+        font-weight: 400;
+        font-style: italic;
+
+
+        Futura PT Cond Bold
+        font-family: futura-pt-condensed, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+
+
+        Futura PT Cond Bold Oblique
+        font-family: futura-pt-condensed, sans-serif;
+        font-weight: 700;
+        font-style: italic;
+        */
